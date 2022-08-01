@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+	background-color: #343434 ;
+	font-family: 'Poppins', sans-serif;
+	color: white;	
+}
+
+
+h6{
+	font-weight: 500;
+}
+
+
+.minh-100 {
+  height: 100vh;
+}
+
+
+.labelBpi{	
+	color: white;	
+}
+
+
+.inputBpi{
+	width: 100%;
+	height: 35px;
+	border: 3px solid #575757;
+	border-radius: 25px;
+	background-color: #343434 ;
+	color: white;
+	font-size: 15px;
+	font-style: italic;
+}
+
+.hrBpi{
+	border-radius: 15px;
+	color: #575757;	
+}
+
+.btnBpi{
+	width: 100%;
+	color:  white;
+	border-bottom: 3px solid #575757;	
+	text-decoration: none;
+	font-style: italic;
+}
+
+.btnBpi:hover{	
+	color:  #F8DB0B !important;	
+}
+
+.checkBoxBpi{
+	width: 14px;
+  	height: 14px;
+  	border-radius: 2px;
+	border: 15px solid #bcbcbc;
+	background-color: #343434;	
+	
+}
+
+.checkLabel{
+	font-size: 12px;	
+	
+}

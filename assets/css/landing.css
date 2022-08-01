@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+	background-color: #343434 ;
+	font-family: 'Poppins', sans-serif;
+	color: white;	
+}
+
+h3{
+	font-style: italic;
+}
+
+p {
+	font-size: 13px;
+	color: gray;
+}
+
+
+
+
+
+.titleHeader{
+	font-style: italic;		
+}
+
+
+.navBpi{
+	font-size: 15px !important;
+	color: white;
+	text-decoration: none;
+	margin-right: 55px;
+}
+
+.navBpi:hover{	
+	color:  #F8DB0B !important;	
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style the search field */
+form.example input[type=text] {  
+  height: 40px;
+  color: white;
+  font-size: 15px;
+  padding-left: 15px;
+  margin-left: 35px;
+  border: 2px solid grey;
+  border-bottom-left-radius: 25px;
+  border-top-left-radius: 25px;
+  border-right-color:#343434 ;
+  float: left;
+  width: 80%;
+  background: #343434;
+}
+
+/* Style the submit button */
+form.example button {
+  height: 40px;
+  float: left;
+  width: 10%;  
+  background: #343434;
+  color: white;
+  font-size: 17px;
+  border: 2px solid grey;  
+  border-bottom-right-radius: 25px;
+  border-top-right-radius: 25px;
+  border-left-color:#343434 ;
+  cursor: pointer;
+}
+
+form.example i:hover {
+  color: #F8DB0B;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.cardBpi{
+	background-color: #F3F3F3;
+	height: 250px;
+	width: auto;
+	border-radius: 15px !important ;
+}
+
+.intent{
+	margin-top: 120px;
+}
+
+.cardBpiCourses{	
+	height: 250px;
+	width: auto;
+	border-radius: 25px !important;
+}
+
+
+.abs-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+}
+
+.allignBpi{
+	margin-top: 90%;
+}
+
+.cardContentBpi{
+	margin-top: 25%;		
+}
+
+.cardInsideCard{
+	height: 100%;
+	width: auto;
+	border-radius: 15px !important;
+}
+
+
+
+
+
+.cards-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.card img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.card {
+  margin: 0 0.5em;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  border: none;
+  border-radius: 0;
+}
+.carousel-inner {
+  padding: 1em;
+}
+.carousel-control-prev,
+.carousel-control-next {  
+  width: 25px;
+  height: 45px;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+@media (min-width: 768px) {
+  .card img {
+    height: 120px;
+  }
+}
+
+
+.cardCarouselBpi{
+	border-radius: 25px;
+	border: 15px solid #F3F3F3;
+	background-color: #343434;
+}
+
+.imgBar{
+	width: 100%;
+}
+
+
+.imgAbsolute{
+	position: absolute;
+  	top: 0px;
+  	left: 90%;
+  	height: 10% !important;
+
+}
